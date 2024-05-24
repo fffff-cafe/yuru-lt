@@ -1,0 +1,14 @@
+{
+  "name": "yuru-lt",
+  "version": "1.0.0",
+  "description": "ゆるLT会のスライド置き場",
+  "scripts": {
+    "start": "marp -s ./slides"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@marp-team/marp-cli": "^3.4.0"
+  }
+}
