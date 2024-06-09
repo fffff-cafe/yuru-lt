@@ -26,8 +26,8 @@ jobs:
       - run: pnpm i
       - run: pnpm build
       - uses: actions/upload-pages-artifact@v3
-        with: 
-	  path: ./dist
+        with:
+          path: ./dist
 
   deploy:
     environment:
