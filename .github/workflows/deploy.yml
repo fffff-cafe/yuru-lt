@@ -23,6 +23,8 @@ jobs:
         with:
           node-version: 21
       - uses: pnpm/action-setup@v3
+        with:
+          version: 9
       - run: pnpm i
       - run: pnpm build
       - uses: actions/upload-pages-artifact@v3
